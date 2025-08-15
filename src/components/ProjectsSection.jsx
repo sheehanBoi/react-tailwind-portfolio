@@ -43,7 +43,7 @@ const projects =[
         description: "A short 2D sidescrolling runner game devloped for a 2 day game jam.",
         image: "/projects/running_to_masters.png",
         tags: ["C#", "Unity"],
-        demoUrl: "#",
+        demoUrl: "https://thunderb0lt.itch.io/running-to-masters",
     }
 ]
 
@@ -90,10 +90,8 @@ export const ProjectsSection = () => {
                                             <ExternalLink size={20}/>
                                         </a>
 
-                                        <a href={project.githubUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
-                                            <Github size={20}/>
-                                        </a>
-                                    </div>
+                                        {/*<a href={project.githubUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300"><Github size={20}/></a>*/}
+                                    </div> ``
                                 </div>
                             </div>
 
